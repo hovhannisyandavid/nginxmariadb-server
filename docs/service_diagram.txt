@@ -1,0 +1,16 @@
++--------------------------------------------------+
+|                Ubuntu Server VM                  |
+|--------------------------------------------------|
+|  Servicios instalados:                           |
+|                                                  |
+|   - Nginx (Servidor Web)                         |
+|       • Puerto: 80                               |
+|       • Ruta raíz: /var/www/html                 |
+|                                                  |
+|   - MariaDB (Base de Datos)                      |
+|       • Puerto: 3306                             |
+|       • Base inicial: projectdb                  |
+|       • Usuario: projectuser                     |
+|--------------------------------------------------|
+|  Red privada (host-only): 192.168.56.10          |
++--------------------------------------------------+
