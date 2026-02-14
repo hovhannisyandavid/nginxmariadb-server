@@ -100,3 +100,4 @@ Future Improvements
 •	Basic monitoring stack (Prometheus / Grafana)
 •	Containerized deployment alternative
 •	Separation of web and database into different nodes
+
