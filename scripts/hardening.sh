@@ -10,7 +10,6 @@ sudo ufw --force enable
 
 # SSH hardening 
 sudo sed -i 's/PermitRootLogin yes/PermitRootLogin no/' /etc/ssh/sshd_config || true 
-sudo sed -i 's/#PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config || true 
 sudo sed -i 's/#PermitEmptyPasswords no/PermitEmptyPasswords no/' /etc/ssh/sshd_config || true 
 sudo sed -i 's/#MaxAuthTries 6/MaxAuthTries 3/' /etc/ssh/sshd_config || true 
 sudo sed -i 's/#X11Forwarding yes/X11Forwarding no/' /etc/ssh/sshd_config || true
