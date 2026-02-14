@@ -1,0 +1,5 @@
+srv.vm.provision "shell", path: "../scripts/install_nginx.sh"
+srv.vm.provision "shell", path: "../scripts/install_mariadb.sh"
+srv.vm.provision "shell", path: "../scripts/hardening.sh"
+srv.vm.provision "shell", path: "../scripts/install_fail2ban.sh"
+srv.vm.provision "shell", path: "../scripts/setup_cron.sh"
