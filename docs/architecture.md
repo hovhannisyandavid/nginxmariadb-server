@@ -13,3 +13,11 @@ Ambos servicios se despliegan automáticamente mediante scripts Bash y se ejecut
 
 La infraestructura se compone de una única máquina virtual con la siguiente configuración:
 
+
+### Seguridad adicional
+
+El servidor incluye mecanismos avanzados de protección:
+
+- **Fail2ban**, que monitoriza intentos fallidos de acceso SSH y bloquea automáticamente direcciones IP sospechosas.
+- **Backups automáticos diarios** de la base de datos MariaDB, con logs detallados y retención de 7 días para evitar acumulación de archivos.
+
