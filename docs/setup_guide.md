@@ -18,3 +18,8 @@ Puedes verificar la instalación ejecutando:
 vagrant --version
 virtualbox --help
 git --version
+
+## Verificar Fail2ban
+
+```bash
+sudo fail2ban-client status sshd
